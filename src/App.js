@@ -5,8 +5,6 @@ import Main from "../src/components/Main/Main"
 
 import {
   HashRouter as Router,
-  Link,
-  NavLink,
   Route,
   Switch,
 } from "react-router-dom";
