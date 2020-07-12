@@ -1,6 +1,5 @@
 import React from 'react';
-import {HashRouter as Router, Link, NavLink, Route, Switch} from "react-router-dom";
-import Main from "../Main/Main"
+import {Link} from "react-router-dom";
 
 
 function Hello() {
