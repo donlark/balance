@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import vacine from "../../asets/vacine.png";
 import shelter from "../../asets/shelter.png";
 import tree from "../../asets/tree.png";
 import firstaid from "../../asets/firstaid.png";
@@ -49,7 +48,6 @@ export default class What extends Component {
   handleClick = () => {
     if (this.state.costValue <= 50) {
         console.log("aaa")
-      let randomNumber = Math.floor(Math.random() * (2 - 1)) + 1;
       console.log("cost", this.state.costValue);
 
       let array = new Array(parseInt(Number(this.state.costValue) / 0.19));
@@ -202,7 +200,7 @@ export default class What extends Component {
               </span>{" "}
             </h2>
             {this.state.table.map((i) => {
-              return <img className="image" src={this.state.image} />;
+              return <img className="image" src={this.state.image} alt="" />;
             })}
             <div><h2><br/><q>{this.state.info}</q></h2></div>
             <div><h3>more info at: <a className="a" href={this.state.href}>{this.state.adress}</a></h3></div>
