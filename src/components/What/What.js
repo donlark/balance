@@ -176,6 +176,9 @@ export default class What extends Component {
 }
 
   render() {
+    console.log("State:");
+    console.log(stringify(this.state));
+    
     return (
       <div
         className="container"
@@ -187,8 +190,6 @@ export default class What extends Component {
         }}
       >
         {this.state.showHow ? (
-      console.log("State:");
-        console.log(stringify(this.state));
     
           <div style={{}}>
             <h1>
