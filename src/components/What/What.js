@@ -187,6 +187,9 @@ export default class What extends Component {
         }}
       >
         {this.state.showHow ? (
+      console.log("State:");
+        console.log(stringify(this.state));
+    
           <div style={{}}>
             <h1>
               Your <br />
