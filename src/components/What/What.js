@@ -177,7 +177,7 @@ export default class What extends Component {
 
   render() {
     console.log("State:");
-    console.log(stringify(this.state));
+    console.log(JSON.stringify(this.state));
     
     return (
       <div
